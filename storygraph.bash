@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-username="calculate"
+username="username"
 i=1
 read_url="https://app.thestorygraph.com/books-read/$username?page="
 review_url="https://app.thestorygraph.com/user_reviews/$username?page="

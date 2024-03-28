@@ -53,10 +53,6 @@ def make_books():
 def make_md():
     fbook = open("books.md", "w")
     fbook.write('---\ntitle: "My Books"\ndraft: false\n---')
-    fbook.write("## What is this page?\n")
-    fbook.write(
-        "Hi I made this page mainly as a challenge for myself to see if I could scrape my book reviews from storygraph using only command-line tools. FYI, some of these reviews are very old and out of order. The reviews are mainly for me to reminisce upon, so don't judge too harshly. =P "
-    )
     fbook.write("{{< rawhtml >}}\n")
     for book in books:
         if book.title == "":
