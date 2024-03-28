@@ -1,0 +1,200 @@
+body {
+  font-family: sans-serif;
+  background: #0B2031;
+  color: #ede8e3;
+  background-image: url("/1064.GIF")
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+main>article {
+  background: #0B2031;
+  margin-bottom: 0;
+  padding: 1em 1em 5em 1em;
+  border-color: #ede8e3;
+  border-width: 0.25em 0.25em 0.25em 0.25em;
+  border-style: solid;
+  border-radius: 20px;
+  margin: auto;
+}
+
+main>#homebody {
+  background: #0B2031;
+  margin-bottom: 0;
+  padding: 1em;
+  border-color: #ede8e3;
+  border-width: 0.25em 0.25em 0.25em 0.25em;
+  border-style: solid;
+  border-radius: 20px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+img[src$='#center'] {
+  display: block;
+  border: 2px solid #ede8e3;
+  margin: 0.7rem auto;
+  /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+  /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft'] {
+  float: left;
+  margin: 0.7rem;
+  /* this margin is totally up to you */
+  /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright'] {
+  float: right;
+  margin: 0.7rem;
+  /* this margin is totally up to you */
+  /* whatever else styles you fancy here */
+}
+
+figcaption {
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+  text-align: center;
+  clear: both;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+  /* The container for both the previous and next articles. */
+}
+
+#prevart {
+  float: left;
+  text-align: left;
+}
+
+#nextart {
+  float: right;
+  text-align: right;
+}
+
+#nextart,
+#prevart {
+  max-width: 33%;
+}
+
+.resright,
+.profile {
+  display: block;
+  float: right;
+  padding: 10px;
+  clear: both;
+  max-width: 300px;
+}
+
+.resright {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.resright img {
+  max-height: 300px;
+}
+
+.profile {
+  text-align: center;
+  max-height: 250px;
+}
+
+.profile img {
+  max-height: inherit;
+  border-radius: 50px;
+  border: 2px solid #ede8e3;
+}
+
+/* unvisited link */
+a:link {
+  color: lightgreen;
+}
+
+/* visited link */
+a:visited {
+  color: lightgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.nextprev {}
+
+.book-container {
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: left;
+}
+
+.book-thumb {}
+
+.book-thumb img {
+  width: 150px;
+}
+
+.book-content {
+  max-width: 78%;
+  margin-left: 15px;
+}
+
+.book-genre {
+  color: pink;
+  margin-top: 10px;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media(max-width: 1000px) {
+
+  .book-container {
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .book-content {
+    margin-left: 0px;
+    max-width: 95%;
+  }
+}
