@@ -6,11 +6,11 @@ This is a quick and dirty weekend project I did that scrapes StoryGraph profiles
   - This is necessary if you want to scrape your book reviews without being singed in.
   - By default profiles are only visible to other people with accounts, but this can be changed in your account settings.
 2. Your website is created using Hugo, the static site generator
-  - If you aren't, this script can be pretty easily modified to output whatever format.
+  - If you aren't using Hugo, this script can be pretty easily modified to output whatever format.
 
 ## Steps:
 1. Clone my [github repo](https://github.com/JackRaymondCyber/StoryGraph-To-Hugo)
-2. Change "username" to your StoryGraph username on lines 3 of storygraph.bash
+2. Change "username" to your StoryGraph username on line 3 of storygraph.bash
 3. Run storygraph.py
 4. Move books.md into your Hugo content directory
 5. Either copy my style.css to your static directory or modify your own style.css
