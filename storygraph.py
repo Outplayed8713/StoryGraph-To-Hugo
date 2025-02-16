@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os
 
-os.system("~/projects/storygraph/storygraph.bash")
+os.system("./storygraph.bash")
 ftitles = open("titles", "r")
 fimgs = open("imgs", "r")
 fgenres = open("genres", "r")
